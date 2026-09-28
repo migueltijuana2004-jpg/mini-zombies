@@ -1,11 +1,8 @@
 # Mini Zombies Co-op
 
-Juego de zombis por oleadas inspirado en *Call of Mini Zombies*. Se juega en el navegador, solo o en cooperativo por internet (hasta 4 jugadores).
+Juego de zombis por oleadas inspirado en *Call of Mini Zombies* y en el modo zombis de *Call of Duty*. Se juega en el navegador, solo o en cooperativo por internet (hasta 4 jugadores).
 
-## Jugar en tu PC (solo)
-
-Dale doble clic a `index.html`. Se abre en tu navegador (Chrome o Edge) y ya puedes jugar.
-Necesitas internet porque el juego baja las librerías 3D la primera vez.
+**Link del juego:** https://migueltijuana2004-jpg.github.io/mini-zombies/
 
 ## Controles
 
@@ -15,49 +12,81 @@ Necesitas internet porque el juego baja las librerías 3D la primera vez.
 | Shift | Correr |
 | Ratón | Apuntar |
 | Clic izquierdo | Disparar |
+| Clic derecho o V | Cuchillo |
+| E | Comprar / usar (armas, puertas, máquinas, caja, radios) |
 | R | Recargar |
-| 1, 2, 3, 4 o la rueda del ratón | Cambiar de arma |
-| B | Abrir la tienda (solo entre oleadas) |
-| Enter | Empezar la siguiente oleada ya |
+| 1, 2, 3 o la rueda del ratón | Cambiar de arma |
+| Enter | Empezar la siguiente oleada ya (solo el anfitrión) |
 | Esc | Pausa / soltar el ratón |
 
-## Publicarlo en GitHub Pages (para jugar con tu hermano)
+## Mapas
 
-Esto se hace una sola vez y es gratis:
+- **Ciudad:** calles abiertas, sin puertas. Ideal para empezar.
+- **Hospital:** 9 cuartos conectados por puertas que se compran. Empieza sin luz, así que usas tu linterna, y los zombis entran por las ventanas y los ductos de ventilación. Tiene un **easter egg**.
+- Próximamente: Escuela, Cárcel, Puente, Pantano y Cementerio.
 
-1. Entra a https://github.com y arriba a la derecha dale a **+ → New repository**.
-2. Nombre: `mini-zombies`. Déjalo en **Public**. Dale a **Create repository**.
-3. En la página del repo, dale clic al link **uploading an existing file**.
-4. Arrastra `index.html` y `LEEME.md` y dale a **Commit changes**.
-5. Ve a **Settings → Pages**. En *Branch* elige **main** y **/(root)**, y dale a **Save**.
-6. Espera 1 o 2 minutos. Tu juego queda en:
-   `https://TU-USUARIO.github.io/mini-zombies/`
+## Cómo se juega (estilo Call of Duty Zombies)
+
+- **Puntos:** ganas $10 por cada bala que le pega a un zombi y más dinero por cada zombi que matas. Empiezas con $500.
+- **Armas en la pared:** acércate a un dibujo de arma y presiona **E**. Si ya la tienes, te vende munición a mitad de precio.
+- **Puertas:** cuestan dinero y abren nuevas zonas. Ojo: también salen zombis por ahí.
+- **Caja misteriosa ($950):** te da un arma al azar, como el lanzacohetes, la ametralladora o el **Rayo X**.
+- **Electricidad:** en el Hospital hay que encenderla en el Cuarto de Máquinas para que funcionen las máquinas de ventajas.
+- **Ventajas (máquinas):**
+  - **Coraza:** vida 250.
+  - **Mano Rápida:** recargas más rápido.
+  - **Doble Disparo:** disparas más rápido.
+  - **Piernas de Liebre:** corres más rápido.
+  - **Resurrección:** en solo te levanta una vez; en equipo revives más rápido.
+  - **Tercera Arma:** puedes cargar 3 armas.
+  - Las pierdes si te derriban.
+- **Máquina de Mejora ($5000):** dobla el daño de tu arma y le da más balas.
+- **Power-ups que sueltan los zombis:**
+  - **Munición máxima**
+  - **Muerte instantánea** (30 s)
+  - **Doble puntos** (30 s)
+  - **Bomba nuclear** (mata a todos los zombis)
+- **Vida:** se recupera sola si no te pegan por unos segundos.
+- **Derribado:** puedes seguir disparando. Tu compañero te revive si se queda junto a ti. Si nadie te revive en 30 s, te desangras y vuelves en la siguiente oleada con la pistola.
+
+## Zombis
+
+- **Zombi** y **Corredor:** los normales.
+- **Saltador:** brinca hacia ti desde lejos.
+- **Escupidor:** te lanza ácido que deja un charco verde. ¡Sal del charco!
+- **Explosivo:** tiene la panza naranja. Si se te acerca, parpadea y explota. Si le disparas de lejos, su explosión daña a los otros zombis.
+- **Bruto:** ruge y luego te embiste.
+- **Jefe:** sale cada 5 oleadas. Da un pisotón (marca un círculo rojo, ¡aléjate!) y llama a otros zombis.
+
+## Easter egg del Hospital: "Paciente Cero"
+
+Escucha las 3 grabaciones de radio (E) para conocer la historia. Si te atoras, el objetivo aparece en la esquina de arriba a la izquierda:
+
+1. Enciende la electricidad.
+2. Encuentra las 3 muestras de sangre brillantes (cambian de lugar cada partida).
+3. Llévalas a la centrífuga del Laboratorio.
+4. Protégela 25 segundos.
+5. Mata al Paciente Cero.
+
+Premio: $2500 y se destapa la Máquina de Mejora.
 
 ## Jugar juntos
 
-1. Tú abres tu link de GitHub Pages y le das a **Crear partida para jugar juntos**.
-2. Dale a **Copiar link** y mándaselo a tu hermano por WhatsApp.
-3. Él abre el link y le da a **Unirme a la partida**.
-4. Otra opción: él abre el juego y escribe el **código de 5 letras** que te aparece.
+1. Abre el link del juego, elige un mapa y dale a **Crear partida para jugar juntos**.
+2. Dale a **Copiar link** y mándaselo a tu hermano.
+3. Él abre el link y le da a **Unirme a la partida** (o escribe el código de 5 letras).
+4. Tu hermano puede entrar aunque ya hayas empezado. Si pierdes el código, presiona **Esc** para verlo.
 
-Tu hermano puede entrar aunque ya hayas empezado. Si pierdes el código, presiona **Esc** para verlo.
+Tu computadora es el "anfitrión". Si cierras tu pestaña, la partida se acaba para los dos.
 
-**Cómo funciona:** tu computadora es el "anfitrión" y corre la partida. Si cierras tu pestaña, la partida se acaba para los dos.
+**Si no se conectan:** revisen el código y el internet. Algunas redes bloquean la conexión directa; prueben con otra red o con el hotspot del celular.
 
-### Si no se conectan
+## Actualizar el juego en GitHub
 
-- Revisen que los dos tengan internet y que el código esté bien escrito.
-- Algunas redes (escuelas, oficinas, datos móviles de ciertas compañías) bloquean la conexión directa. Prueben con otra red o compartiendo datos desde un celular.
-
-## Cómo se juega
-
-- Sobrevive a las oleadas de zombis. Cada 5 oleadas aparece un **JEFE**.
-- Tipos de zombi: normal, **corredor** (rápido), **gordo** (aguanta mucho) y **jefe**.
-- Ganas dinero por cada zombi que matas y un bono al terminar cada oleada. Los tiros a la cabeza hacen el doble de daño.
-- Entre oleadas presiona **B** para comprar escopeta, AK-47, lanzacohetes, munición y botiquines.
-- Los zombis a veces tiran **munición** (caja amarilla) o **vida** (caja con cruz roja).
-- En cooperativo, si te derriban, tu compañero puede revivirte si se queda junto a ti unos segundos. Si derriban a todos, se acaba el juego.
+1. En tu repositorio de GitHub dale a **Add file → Upload files**.
+2. Arrastra el nuevo `index.html` (y `LEEME.md` si cambió) y dale a **Commit changes**.
+3. En 1 o 2 minutos el link ya tiene la versión nueva. Si no ves el cambio, recarga con **Ctrl + F5**.
 
 ## Cambiar el juego
 
-Todo está en `index.html`. Hasta arriba del código, en la parte de **CONFIGURACIÓN**, puedes cambiar el daño y el precio de las armas o la vida y velocidad de los zombis. Después de cambiarlo, vuelve a subir el archivo a GitHub.
+Todo está en `index.html`. Hasta arriba del código, en la parte de **CONFIGURACIÓN**, puedes cambiar precios, daño de las armas, vida de los zombis, etc.
